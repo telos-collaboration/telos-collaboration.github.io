@@ -20,9 +20,9 @@ image: haeundae
 {%- if member.status == category -%}
 <div class="collaboration-member">
 {%- if member.image -%}
-<img class="collaboration-member-portrait" src="{{ "/assets/img/members/" | append: member.image | append: ".jpg" | relative_url }}" >
+<img class="collaboration-member-portrait" src="{{ "/assets/img/members/" | append: member.image | append: ".jpg" | relative_url }}" alt="Photograph of {{ member.name }}">
 {%- else -%}
-<img class="collaboration-member-portrait" src="/assets/img/person.svg">
+<img class="collaboration-member-portrait" src="/assets/img/person.svg" alt="No portrait available">
 {%- endif -%}
 <p class="collaboration-member-name">
   {{ member.name }}
