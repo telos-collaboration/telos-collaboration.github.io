@@ -1,0 +1,591 @@
+- arxiv_cat: hep-lat
+  arxiv_id: '2405.05765'
+  authors:
+  - Ed Bennett
+  - "Niccol\xF2 Forzano"
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Preprints
+  created: '2024-05-10T03:37:08.291447+00:00'
+  data: https://doi.org/10.5281/zenodo.13349269
+  doi: null
+  inspire: https://inspirehep.net/literature/2784692
+  title: Mixing between flavor singlets in lattice gauge theories coupled to matter
+    fields in multiple representations
+  workflow: https://doi.org/10.5281/zenodo.13349298
+- arxiv_cat: hep-lat
+  arxiv_id: '2405.01388'
+  authors:
+  - Ed Bennett
+  - Luigi Del Debbio
+  - "Niccol\xF2 Forzano"
+  - Ryan C. Hill
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Alessandro Lupo
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Preprints
+  created: '2024-05-03T03:39:06.885705+00:00'
+  data: https://doi.org/10.5281/zenodo.11048346
+  doi: null
+  inspire: https://inspirehep.net/literature/2782833
+  title: Meson spectroscopy from spectral densities in lattice gauge theories
+  workflow: https://doi.org/10.5281/zenodo.11048300
+- arxiv_cat: hep-lat
+  arxiv_id: '2401.05637'
+  authors:
+  - Ho Hsiao
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2024-01-12T03:39:25.421861+00:00'
+  doi: 10.22323/1.453.0089
+  inspire: https://inspirehep.net/literature/2745624
+  journal_artid: 089
+  journal_title: PoS
+  journal_volume: LATTICE2023
+  journal_year: 2024
+  title: Chimera baryon spectrum in the Sp(4) completion of composite Higgs models
+- arxiv_cat: hep-lat
+  arxiv_id: '2312.08465'
+  authors:
+  - Ed Bennett
+  - Jack Holligan
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2023-12-16T03:37:16.522925+00:00'
+  data: https://doi.org/10.5281/zenodo.10932404
+  doi: 10.1103/PhysRevD.109.094517
+  inspire: https://inspirehep.net/literature/2737278
+  journal_artid: 094517
+  journal_title: Phys.Rev.D
+  journal_volume: '109'
+  journal_year: 2024
+  title: Spectrum of mesons in quenched $Sp(2N)$ gauge theories
+  workflow: https://doi.org/10.5281/zenodo.10932408
+- arxiv_cat: hep-lat
+  arxiv_id: '2311.14663'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2023-11-27T03:42:32.860900+00:00'
+  data: https://doi.org/10.5281/zenodo.10819721
+  doi: 10.1103/PhysRevD.109.094512
+  inspire: https://inspirehep.net/literature/2726054
+  journal_artid: 094512
+  journal_title: Phys.Rev.D
+  journal_volume: '109'
+  journal_year: 2024
+  title: Lattice investigations of the chimera baryon spectrum in the $Sp(4)$ gauge
+    theory
+  workflow: https://doi.org/10.5281/zenodo.10929539
+- arxiv_cat: hep-lat
+  arxiv_id: '2310.02111'
+  authors:
+  - "Niccol\xF2 Forzano"
+  - Ed Bennett
+  - Peter Boyle
+  - Jong-Wan Lee
+  - Julian Lenz
+  - Biagio Lucini
+  - Alessandro Lupo
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Luigi Del Debbio
+  - Deog Ki Hong
+  - C.-J. David Lin
+  category: Conference proceedings
+  created: '2023-10-04T02:40:35.431070+00:00'
+  data: https://doi.org/10.5281/zenodo.8136452
+  doi: 10.22323/1.453.0097
+  inspire: https://inspirehep.net/literature/2705366
+  journal_artid: 097
+  journal_title: PoS
+  journal_volume: LATTICE2023
+  journal_year: 2024
+  title: Lattice studies of Sp(2N) gauge theories using GRID
+  workflow: https://doi.org/10.5281/zenodo.8136514
+- arxiv_cat: hep-lat
+  arxiv_id: '2306.11649'
+  authors:
+  - Ed Bennett
+  - Peter A. Boyle
+  - Luigi Del Debbio
+  - "Niccol\xF2 Forzano"
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - Julian Lenz
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Alessandro Lupo
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2023-06-21T08:48:06.173595+00:00'
+  data: https://doi.org/10.5281/zenodo.8136452
+  doi: 10.1103/PhysRevD.108.094508
+  inspire: https://inspirehep.net/literature/2670300
+  journal_artid: 094508
+  journal_title: Phys.Rev.D
+  journal_volume: '108'
+  journal_year: 2023
+  title: 'Symplectic lattice gauge theories in the grid framework: Approaching the
+    conformal window'
+  workflow: https://doi.org/10.5281/zenodo.8136514
+- arxiv_cat: hep-lat
+  arxiv_id: '2304.01070'
+  authors:
+  - Ed Bennett
+  - Jack Holligan
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Michele Mesiti
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2023-04-04T03:04:33.825971+00:00'
+  doi: 10.3390/universe9050236
+  inspire: https://inspirehep.net/literature/2648212
+  journal_artid: '236'
+  journal_title: Universe
+  journal_volume: '9'
+  journal_year: 2023
+  title: Sp(2N) Lattice Gauge Theories and Extensions of the Standard Model of Particle
+    Physics
+- arxiv_cat: hep-lat
+  arxiv_id: '2211.09262'
+  authors:
+  - Jong-Wan Lee
+  - Ed Bennett
+  - Deog Ki Hong
+  - Ho Hsiao
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2022-11-18T02:44:59.916609+00:00'
+  doi: 10.1051/epjconf/202227408005
+  inspire: https://inspirehep.net/literature/2183167
+  journal_artid: 08005
+  journal_title: EPJ Web Conf.
+  journal_volume: '274'
+  journal_year: 2022
+  title: Composite dynamics in Sp(2N) gauge theories
+- arxiv_cat: hep-lat
+  arxiv_id: '2211.03955'
+  authors:
+  - Ho Hsiao
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2022-11-09T02:46:14.810234+00:00'
+  doi: 10.22323/1.430.0211
+  inspire: https://inspirehep.net/literature/2178029
+  title: Spectroscopy of chimera baryons in a $Sp(4)$ lattice gauge theory
+  workflow: tbc
+- arxiv_cat: hep-lat
+  arxiv_id: '2211.02370'
+  authors:
+  - Davide Vadacchino
+  - Ed Bennett
+  - C.-J. David Lin
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - Biagio Lucini
+  - Maurizio Piai
+  category: Conference proceedings
+  created: '2022-11-07T05:01:44.535403+00:00'
+  doi: 10.22323/1.430.0400
+  inspire: https://inspirehep.net/literature/2176716
+  journal_artid: '400'
+  journal_title: PoS
+  journal_volume: LATTICE2022
+  journal_year: 2023
+  title: Topological susceptibility, scale setting and universality from $Sp(N_c)$
+    gauge theories
+- arxiv_cat: hep-lat
+  arxiv_id: '2210.08154'
+  authors:
+  - Ho Hsiao
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2022-10-18T02:47:08.285660+00:00'
+  doi: 10.22323/1.430.0214
+  inspire: https://inspirehep.net/literature/2165940
+  journal_artid: '211'
+  journal_title: PoS
+  journal_volume: LATTICE2022
+  journal_year: 2023
+  title: Spectroscopy of $Sp(4)$ lattice gauge theory with $n_f=3$ antisymmetric fermions
+- arxiv_cat: hep-lat
+  arxiv_id: '2205.09364'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2022-05-20T02:49:24.004355+00:00'
+  data: https://doi.org/10.5281/zenodo.6678411
+  doi: 10.1103/PhysRevD.106.094503
+  inspire: https://inspirehep.net/literature/2085181
+  journal_artid: 094503
+  journal_title: Phys.Rev.D
+  journal_volume: '106'
+  journal_year: 2022
+  title: '$Sp(2N)$ Yang-Mills theories on the lattice: Scale setting
+    and topology'
+  workflow: https://doi.org/10.5281/zenodo.6685967
+- arxiv_cat: hep-lat
+  arxiv_id: '2205.09254'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2022-05-20T02:48:53.198884+00:00'
+  data: https://doi.org/10.5281/zenodo.6678411
+  doi: 10.1016/j.physletb.2022.137504
+  inspire: https://inspirehep.net/literature/2085180
+  journal_artid: '137504'
+  journal_title: Phys.Lett.B
+  journal_volume: '835'
+  journal_year: 2022
+  title: Color dependence of the topological susceptibility in Yang-Mills theories
+  workflow: https://doi.org/10.5281/zenodo.6685967
+- arxiv_cat: hep-lat
+  arxiv_id: '2202.05516'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Michele Mesiti
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2022-02-14T09:33:41.995865+00:00'
+  data: https://doi.org/10.5281/zenodo.6637515
+  doi: 10.1103/PhysRevD.106.014501
+  inspire: https://inspirehep.net/literature/2031814
+  journal_artid: '014501'
+  journal_title: Phys.Rev.D
+  journal_volume: '106'
+  journal_year: 2022
+  title: Lattice studies of the $Sp(4)$ gauge theory with two fundamental and three antisymmetric
+    Dirac fermions
+  workflow: https://doi.org/10.5281/zenodo.6637743
+- arxiv_cat: hep-lat
+  arxiv_id: '2111.14544'
+  authors:
+  - Ed Bennett
+  - Jack Holligan
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.J. David Lin
+  - Biagio Lucini
+  - Michele Mesiti
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2021-11-30T05:13:47.494029+00:00'
+  doi: 10.22323/1.396.0308
+  inspire: https://inspirehep.net/literature/1979579
+  journal_artid: '308'
+  journal_title: PoS
+  journal_volume: LATTICE2021
+  journal_year: 2022
+  title: Progress in $Sp(2N)$ lattice gauge theories
+- arxiv_cat: hep-lat
+  arxiv_id: '2111.12125'
+  authors:
+  - Biagio Lucini
+  - Ed Bennett
+  - Jack Holligan
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.J. David Lin
+  - Michele Mesiti
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2021-11-25T02:45:54.197853+00:00'
+  doi: 10.1051/epjconf/202225808003
+  inspire: https://inspirehep.net/literature/1975398
+  journal_artid: 08003
+  journal_title: EPJ Web Conf.
+  journal_volume: '258'
+  journal_year: 2022
+  title: Sp(4) gauge theories and beyond the standard model physics
+- arxiv_cat: hep-lat
+  arxiv_id: '2010.15781'
+  authors:
+  - Ed Bennett
+  - Jack Holligan
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2020-10-30T00:00:00+00:00'
+  doi: 10.1103/PhysRevD.103.054509
+  inspire: https://inspirehep.net/literature/1826768
+  journal_artid: 054509
+  journal_title: Phys.Rev.D
+  journal_volume: '103'
+  journal_year: 2021
+  title: Glueballs and strings in $Sp(2N)$ Yang-Mills theories
+- arxiv_cat: hep-lat
+  arxiv_id: '2004.11063'
+  authors:
+  - Ed Bennett
+  - Jack Holligan
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2020-04-24T00:00:00+00:00'
+  doi: 10.1103/PhysRevD.102.011501
+  inspire: https://inspirehep.net/literature/1792387
+  journal_artid: '011501'
+  journal_title: Phys.Rev.D
+  journal_volume: '102'
+  journal_year: 2020
+  title: Color dependence of tensor and scalar glueball masses in Yang-Mills theories
+- arxiv_cat: hep-lat
+  arxiv_id: '1912.09788'
+  authors:
+  - Jack Holligan
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2019-12-23T00:00:00+00:00'
+  doi: 10.22323/1.363.0177
+  inspire: https://inspirehep.net/literature/1772057
+  journal_artid: '177'
+  journal_title: PoS
+  journal_volume: LATTICE2019
+  journal_year: 2019
+  title: $Sp(2N)$ Yang-Mills towards large $N$
+- arxiv_cat: hep-lat
+  arxiv_id: '1912.06505'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - Chi-Jen David Lin
+  - Biagio Lucini
+  - Michele Mesiti
+  - Maurizio Piai
+  - Jarno Rantaharju
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2019-12-16T00:00:00+00:00'
+  doi: 10.1103/PhysRevD.101.074516
+  inspire: https://inspirehep.net/literature/1770822
+  journal_artid: '074516'
+  journal_title: Phys.Rev.D
+  journal_volume: '101'
+  journal_year: 2020
+  title: '$Sp(4)$ gauge theories on the lattice: quenched fundamental and antisymmetric
+    fermions'
+- arxiv_cat: hep-lat
+  arxiv_id: '1911.00437'
+  authors:
+  - Jong-Wan Lee
+  - Deog Ki Hong
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Ed Bennett
+  category: Conference proceedings
+  created: '2019-11-04T00:00:00+00:00'
+  doi: 10.22323/1.363.0054
+  inspire: https://inspirehep.net/literature/1762579
+  journal_artid: '054'
+  journal_title: PoS
+  journal_volume: LATTICE2019
+  journal_year: 2019
+  title: Meson spectrum of Sp(4) lattice gauge theory with two fundamental Dirac fermions
+- arxiv_cat: hep-lat
+  arxiv_id: '1909.12662'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2019-09-30T00:00:00+00:00'
+  doi: 10.1007/JHEP12(2019)053
+  inspire: https://inspirehep.net/literature/1756603
+  journal_artid: '053'
+  journal_title: JHEP
+  journal_volume: '12'
+  journal_year: 2019
+  title: 'Sp(4) gauge theories on the lattice: $N_f=2$ dynamical fundamental fermions'
+- arxiv_cat: hep-lat
+  arxiv_id: '1811.00276'
+  authors:
+  - Jong-Wan Lee
+  - Ed Bennett
+  - Deog Ki Hong
+  - C.J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2018-11-02T00:00:00+00:00'
+  doi: 10.22323/1.334.0192
+  inspire: https://inspirehep.net/literature/1701412
+  journal_artid: '192'
+  journal_title: PoS
+  journal_volume: LATTICE2018
+  journal_year: 2018
+  title: Progress in the lattice simulations of Sp(2$N$) gauge theories
+- arxiv_cat: hep-lat
+  arxiv_id: '1712.04220'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C. -J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Journal articles
+  created: '2017-12-13T00:00:00+00:00'
+  doi: 10.1007/JHEP03(2018)185
+  inspire: https://inspirehep.net/literature/1642732
+  journal_artid: '185'
+  journal_title: JHEP
+  journal_volume: '03'
+  journal_year: 2018
+  title: 'Sp(4) gauge theory on the lattice: towards SU(4)/Sp(4) composite Higgs (and
+    beyond)'
+- arxiv_cat: hep-lat
+  arxiv_id: '1710.07043'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C. -J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2017-10-20T00:00:00+00:00'
+  doi: 10.1051/epjconf/201817508013
+  inspire: https://inspirehep.net/literature/1631655
+  journal_artid: 08013
+  journal_title: EPJ Web Conf.
+  journal_volume: '175'
+  journal_year: 2018
+  title: "Higgs compositeness in Sp(2N) gauge theories \u2014 The pure gauge model"
+- arxiv_cat: hep-lat
+  arxiv_id: '1710.06715'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2017-10-19T00:00:00+00:00'
+  doi: 10.1051/epjconf/201817508012
+  inspire: https://inspirehep.net/literature/1631349
+  journal_artid: 08012
+  journal_title: EPJ Web Conf.
+  journal_volume: '175'
+  journal_year: 2018
+  title: "Higgs compositeness in Sp(2N) gauge theories \u2014 Resymplecticisation,\
+    \ scale setting and topology"
+- arxiv_cat: hep-lat
+  arxiv_id: '1710.06941'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C. -J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Conference proceedings
+  created: '2017-10-20T00:00:00+00:00'
+  doi: 10.1051/epjconf/201817508011
+  inspire: https://inspirehep.net/literature/1631647
+  journal_artid: 08011
+  journal_title: EPJ Web Conf.
+  journal_volume: '175'
+  journal_year: 2018
+  title: "Higgs compositeness in Sp(2N) gauge theories \u2013 Determining the low-energy\
+    \ constants with lattice calculations"

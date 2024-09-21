@@ -15,7 +15,7 @@ sass:
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-spaceship]
 paginate: 5
 
 navigation:
@@ -23,6 +23,8 @@ navigation:
       url: /index.html
     - title: About
       url: /about
+    - title: Publications
+      url: /publications
 
 social:
     github: telos-collaboration
