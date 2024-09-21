@@ -12,11 +12,13 @@ image: haeundae
 
 <h2>Members</h2>
 
+{% assign membersSorted = site.data.members | sort: "name" %}
+
 {%- for category in site.data.member_groups -%}
 <h3>{{ category }}</h3>
 <div class="member-container">
 
-{%- for member in site.data.members -%}
+{%- for member in membersSorted -%}
 {%- if member.status == category -%}
 <div class="collaboration-member">
 {%- if member.image -%}
