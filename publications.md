@@ -7,13 +7,13 @@ mathjax: yes
 
 <h2>Publications</h2>
 
-{%- assign publicationsSorted = site.data.publications | sort: "created" -%}
+{% assign publicationsSorted = site.data.publications | sort: "created" %}
 
-{%- for category in site.data.publication_types -%}
+{% for category in site.data.publication_types %}
 <h3>{{ category }}</h3>
 <ul class="publication-list">
-{%- for publication in publicationsSorted reversed -%}
-{%- if publication.category == category -%}
+{% for publication in publicationsSorted reversed %}
+{% if publication.category == category %}
 <li class="publication">
 <span class="publication-title">{{ publication.title }}</span>
 <span class="author-list">
@@ -21,7 +21,7 @@ mathjax: yes
  {{ author }}{% if forloop.last %}{% else %}, {% endif %}
 {% endfor %}
 </span>
-{%- if publication.doi -%}
+{% if publication.doi %}
 <span class="journal-reference">
 <a href="https://doi.org/{{ publication.doi }}">
 {{ publication.journal_title }}
@@ -30,19 +30,19 @@ mathjax: yes
 {{ publication.journal_artid }}
 </a>
 </span>
-{%- endif -%}
+{% endif %}
 <span class="links">
 <a href="https://arxiv.org/abs/{{ publication.arxiv_id }}">arXiv:{{ publication.arxiv_id }} [{{ publication.arxiv_cat }}]</a> •
 <a href="{{ publication.inspire }}">INSPIRE-HEP</a>
 {% if publication.data %}
  • <a href="{{ publication.data }}">Data</a>
-{%- endif -%}
+{% endif %}
 {% if publication.workflow %}
  • <a href="{{ publication.workflow }}">Workflow</a>
-{%- endif -%}
+{% endif %}
 </span>
 </li>
-{%- endif -%}
-{%- endfor -%}
+{% endif %}
+{% endfor %}
 </ul>
-{%- endfor -%}
+{% endfor %}
