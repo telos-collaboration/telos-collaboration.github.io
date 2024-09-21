@@ -3,45 +3,54 @@
   affiliation-url: https://www.swansea.ac.uk
   github: blucini
   status: Core Members
+  orcid: 0000-0001-8974-8266
 - name: Maurizio Piai
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
   status: Core Members
+  orcid: 0000-0002-2251-0111
 - name: Deog Ki Hong
   affiliation: Pusan National University
   affiliation-url: https://pusan.ac.kr/eng/Main.do
   github: deogki
   status: Core Members
+  orcid: 0000-0002-3923-4184
 - name: Davide Vadacchino
   affiliation: University of Plymouth
   affiliation-url: https://www.plymouth.ac.uk
   github: dvadacchino
   status: Core Members
+  orcid: 0000-0002-5783-5602
 - name: David Lin
   affiliation: National Yang Ming Chiao Tung University
   affiliation-url: https://en.nycu.edu.tw
   status: Core Members
+  orcid: 0000-0003-3743-0840
 - name: Jong Wan Lee
   affiliation: Institute for Basic Science
   affiliation-url: https://www.ibs.re.kr/eng.do
   github: jwlee823
   status: Core Members
+  orcid: 0000-0002-4616-2422
 - name: Ed Bennett
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
   github: edbennett
   status: Core Members
   image: ed
+  orcid: 0000-0002-1678-6701
 - name: Fabian Zierler
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
   github: fzierler
   status: Postdocs
+  orcid: 0000-0002-8670-4054
 - name: Paul Xiao
   affiliation: University of Tsukuba
   affiliation-url: https://www.tsukuba.ac.jp/en/
   github: theHoHsiao
   status: Postdocs
+  orcid: 0000-0002-8522-5190
 - name: Niccolò Forzano
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
@@ -51,6 +60,7 @@
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
   status: Students
+  orcid: 0000-0002-1857-1085
 - name: Nuno Brito
   affiliation: University of Plymouth
   affiliation-url: https://www.plymouth.ac.uk
@@ -59,3 +69,4 @@
 - name: Jack Holligan
   status: Alumni
   github: Jack-Holligan
+  orcid: 0000-0001-6043-0262

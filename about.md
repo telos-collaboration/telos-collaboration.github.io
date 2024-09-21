@@ -26,6 +26,9 @@ image: haeundae
 {%- endif -%}
 <p class="collaboration-member-name">
   {{ member.name }}
+  {% if member.orcid %}
+  <a href="https://orcid.org/{{ member.orcid }}"><img src="/assets/img/orcid.svg" width="22px" style="vertical-align: -10%;" alt="ORCID icon"></a>
+  {% endif %}
 </p>
 {%- if member.affiliation -%}
 <p class="collaboration-member-affiliation">
