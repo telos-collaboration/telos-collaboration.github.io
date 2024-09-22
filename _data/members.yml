@@ -70,3 +70,14 @@
   status: Alumni
   github: Jack-Holligan
   orcid: 0000-0001-6043-0262
+- name: Luigi Del Debbio
+  affiliation: University of Edinburgh
+  affiliation-url: https://www.ed.ac.uk
+  status: Collaborators
+  orcid: 0000-0003-4246-3305
+- name: Ryan Hill
+  affiliation: University of Edinburgh
+  affiliation-url: https://www.ed.ac.uk
+  status: Collaborators
+  github: RChrHill
+  orcid: 0000-0003-2383-940X
