@@ -81,3 +81,14 @@
   status: Collaborators
   github: RChrHill
   orcid: 0000-0003-2383-940X
+- name: Axel Maas
+  affiliation: University of Graz
+  affiliation-url: https://www.uni-graz.at
+  status: Collaborators
+  orcid: 0000-0002-4621-2151
+- name: Yannick Dengler
+  affiliation: University of Graz
+  affiliation-url: https://www.uni-graz.at
+  status: Collaborators
+  github: yannickdengler
+  orcid: 0000-0002-2305-8868
