@@ -1,0 +1,63 @@
+- group: computing
+  image: dirac.svg
+  text: DiRAC
+  link: https://dirac.ac.uk
+- group: computing
+  image: scw.svg
+  text: Supercomputing Wales
+  link: https://supercomputing.wales
+- group: computing
+  image: pnu.svg
+  text: Pusan National University
+  link: http://www.pusan.ac.kr/
+- group: computing
+  image: nycu.svg
+  text: National Yang Ming Chiao Tung University
+  link: https://www.nycu.edu.tw/nycu/en/index
+- group: computing
+  image: erdf.svg
+  text: European Regional Development Fund via Welsh Government
+  link: https://www.gov.wales/eu-funds
+- group: computing
+  image: riken.svg
+  text: RIKEN
+  link: https://www.riken.jp
+- group: computing
+  image: fugaku.svg
+  text: Supercomputer Fugaku
+  link: https://www.r-ccs.riken.jp/en/fugaku
+- group: money
+  image: stfc.svg
+  text: Science and Technology Facilities Council
+  link: https://www.stfc.ac.uk
+- group: money
+  image: ukri.svg
+  text: United Kingdom Research and Innovation
+  link: https://www.ukri.org
+- group: money
+  image: epsrc.svg
+  text: Engineering and Physical Sciences Research Council
+  link: https://www.epsrc.ac.uk
+- group: money
+  image: erc.svg
+  text: European Research Council
+  link: https://erc.europa.eu
+- group: money
+  image: ibs.svg
+  text: Institute for Basic Sciences
+  link: https://www.ibs.re.kr
+- group: money
+  image: most.svg
+  text: Ministry of Science and Technology
+- group: money
+  image: nstc.svg
+  text: National Science and Technology Council
+  link: https://www.nstc.gov.tw/?l=en
+- group: money
+  image: nrf.svg
+  text: National Research Foundation of Korea
+  link: https://www.nrf.re.kr/index
+- group: money
+  image: royalsociety.svg
+  text: The Royal Society
+  link: https://www.royalsociety.org
