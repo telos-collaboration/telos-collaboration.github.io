@@ -25,6 +25,8 @@ navigation:
       url: /members
     - title: Publications
       url: /publications
+    - title: Open Science
+      url: /openscience
     - title: Opportunities
       url: /opportunities
     - title: Acknowledgements
