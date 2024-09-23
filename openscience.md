@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Open Science at the TELOS Collaboration
-image: haeundae
+image: tsukuba
 ---
 
 The TELOS Collaboration has a strong commitment to open science.
