@@ -31,8 +31,6 @@ navigation:
       url: /openscience
     - title: Opportunities
       url: /opportunities
-    - title: Acknowledgements
-      url: /support
 
 social:
     github: telos-collaboration

@@ -105,7 +105,7 @@ span.links {
 
 .supporter-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(64px, 100%/4)), 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/5)), 1fr));
 	gap: 30px 30px;
 	align-content: space-evenly;
 }
@@ -116,12 +116,15 @@ span.links {
 	max-width: 512px;
 	text-align: center;
 	background-color: #f0f0f0;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding: 12px;
 	border-radius: 20px;
 }
 
 .supporter-logo {
 	width: 90%;
 	max-height: 96px;
+}
+
+.supporter-text {
+	margin: 0px;
 }

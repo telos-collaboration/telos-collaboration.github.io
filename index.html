@@ -8,6 +8,47 @@ title: TELOS Collaboration
 	<b>T</b>heoretical <b>E</b>xplorations on the <b>L</b>attice with <b>O</b>rthogonal and <b>S</b>ymplectic groups.
 </p>
 <p>
+	The main objective of the collaboration is to study from first principles,
+	using state-of-the-art  numerical calculations and analytical methods,
+	theories of beyond the standard model physics devised to explain
+	current puzzles in theoretical particle physics
+	such as the origin of dark matter and the origin of electroweak symmetry breaking.
+	The initial programme of the TELOS collaboration has been laid out in
+	<a href="https://arxiv.org/abs/1712.04220">the early publication [arXiv:1712.04220]</a>,
+	with an account of highlight results and an updated vision provided in
+	<a href="https://arxiv.org/abs/2304.01070">[arXiv:2304.01070]</a>.
+</p>
+<p>
+	The TELOS collaboration is always open to new ideas and proposals by interested researchers.
+</p>
+<p>
 	To find out more about our work,
 	explore the links in the menu above.
 </p>
+
+<h2>Acknowledgements</h2>
+
+<p>Our work would not be possible without the generous support of many organisations.</p>
+
+{% assign sponsorsSorted = site.data.sponsors | sort: "text" %}
+
+{% for sponsor_group in site.data.sponsor_groups %}
+<h3>{{ sponsor_group.title }}</h3>
+
+<p>{{ sponsor_group.description }}</p>
+
+<div class="supporter-list">
+{% for sponsor in sponsorsSorted %}
+{% if sponsor.group == sponsor_group.id %}
+<div class="supporter-entry">
+<img class="supporter-logo" src="/assets/img/sponsors/{{ sponsor.image }}" alt="{{ sponsor.text }}">
+<p class="supporter-text">
+{% if sponsor.link %}<a href="{{ sponsor.link }}">{% endif %}
+{{ sponsor.text }}
+{% if sponsor.link %}</a>{% endif %}
+</p>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+{% endfor %}
