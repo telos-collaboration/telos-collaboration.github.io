@@ -21,6 +21,8 @@ paginate: 5
 navigation:
     - title: About
       url: /index.html
+    - title: News
+      url: /news
     - title: Members
       url: /members
     - title: Publications
