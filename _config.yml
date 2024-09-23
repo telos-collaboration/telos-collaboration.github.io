@@ -27,6 +27,8 @@ navigation:
       url: /members
     - title: Publications
       url: /publications
+    - title: Opportunities
+      url: /opportunities
     - title: Acknowledgements
       url: /support
 
