@@ -61,3 +61,7 @@
   image: royalsociety.svg
   text: The Royal Society
   link: https://www.royalsociety.org
+- group: computing
+  image: kisti.svg
+  text: KISTI National Supercomputing Centre
+  link: https://www.ksc.re.kr/eng/index/main
