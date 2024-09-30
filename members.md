@@ -26,6 +26,11 @@ image: daejeon
   <a href="https://orcid.org/{{ member.orcid }}"><img src="/assets/img/orcid.svg" width="22px" style="vertical-align: -10%;" alt="ORCID icon"></a>
   {% endif %}
 </p>
+{% if member.pronouns %}
+<p class="collaboration-member-pronouns">
+  {{ member.pronouns }}
+</p>
+{% endif %}
 {% if member.affiliation %}
 <p class="collaboration-member-affiliation">
   <a href="{{ member.affiliation-url }}" class="collaboration-member-affiliation-link">{{ member.affiliation }}</a>
