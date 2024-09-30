@@ -5,6 +5,7 @@
   status: Core Members
   orcid: 0000-0001-8974-8266
   image: biagio
+  pronouns: he/him
 - name: Maurizio Piai
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
@@ -24,6 +25,7 @@
   github: dvadacchino
   status: Core Members
   orcid: 0000-0002-5783-5602
+  pronouns: he/him
 - name: David Lin
   affiliation: National Yang Ming Chiao Tung University
   affiliation-url: https://en.nycu.edu.tw
@@ -35,6 +37,7 @@
   github: jwlee823
   status: Core Members
   orcid: 0000-0002-4616-2422
+  pronouns: he/him
 - name: Ed Bennett
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
@@ -42,12 +45,14 @@
   status: Core Members
   image: ed
   orcid: 0000-0002-1678-6701
+  pronouns: they/them
 - name: Fabian Zierler
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
   github: fzierler
   status: Postdocs
   orcid: 0000-0002-8670-4054
+  pronouns: he/him
 - name: Paul Xiao
   affiliation: University of Tsukuba
   affiliation-url: https://www.tsukuba.ac.jp/en/
@@ -60,6 +65,7 @@
   github: nickforce989
   orcid: 0000-0003-0985-8858
   status: Students
+  pronouns: he/him
 - name: David Mason
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
@@ -71,6 +77,7 @@
   status: Students
   github: kzone-dev
   orcid: 0000-0002-0568-4507
+  pronouns: he/him
 - name: Jack Holligan
   status: Collaborators
   github: Jack-Holligan
