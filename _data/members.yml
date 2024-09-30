@@ -52,6 +52,7 @@
   github: fzierler
   status: Postdocs
   orcid: 0000-0002-8670-4054
+  image: fabian
   pronouns: he/him
 - name: Paul Xiao
   affiliation: University of Tsukuba
@@ -65,6 +66,7 @@
   github: nickforce989
   orcid: 0000-0003-0985-8858
   status: Students
+  image: niccolo
   pronouns: he/him
 - name: David Mason
   affiliation: Swansea University
@@ -77,6 +79,7 @@
   status: Students
   github: kzone-dev
   orcid: 0000-0002-0568-4507
+  image: nuno
   pronouns: he/him
 - name: Jack Holligan
   status: Collaborators
