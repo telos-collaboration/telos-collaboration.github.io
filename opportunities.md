@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Opportunities to work with the TELOS Collaboration
-image: mumbles
+image: plymouth
 ---
 
 We are open to collaborative projects aligned with our core research programme.
