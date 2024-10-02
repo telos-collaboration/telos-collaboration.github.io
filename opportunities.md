@@ -5,7 +5,8 @@ image: plymouth
 ---
 
 We are open to collaborative projects aligned with our core research programme.
-Please contact us directly if you would like to collaborate with us.
+Please [contact us directly](mailto:telos-collaboration@swansea.ac.uk)
+if you would like to collaborate with us.
 
 ## Vacancies
 
