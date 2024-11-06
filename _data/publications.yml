@@ -271,8 +271,11 @@
   created: '2022-11-09T02:46:14.810234+00:00'
   doi: 10.22323/1.430.0211
   inspire: https://inspirehep.net/literature/2178029
+  journal_artid: '211'
+  journal_title: PoS
+  journal_volume: LATTICE2022
+  journal_year: 2023
   title: Spectroscopy of chimera baryons in a $Sp(4)$ lattice gauge theory
-  workflow: tbc
 - arxiv_cat: hep-lat
   arxiv_id: '2211.02370'
   authors:
