@@ -1,4 +1,42 @@
 - arxiv_cat: hep-lat
+  arxiv_id: '2412.01170'
+  authors:
+  - Ed Bennett
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  category: Preprints
+  created: '2024-12-03T04:20:03.788479+00:00'
+  data: https://doi.org/10.5281/zenodo.13819562
+  doi: null
+  inspire: https://inspirehep.net/literature/2854594
+  title: Meson spectroscopy in the $Sp(4)$ gauge theory with three antisymmetric fermions
+  workflow: https://doi.org/10.5281/zenodo.13819431
+- arxiv_cat: hep-lat
+  arxiv_id: '2411.18379'
+  authors:
+  - Ho Hsiao
+  - Ed Bennett
+  - "Niccol\xF2 Forzano"
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Conference proceedings
+  created: '2024-11-28T04:13:53.180227+00:00'
+  data: tbc
+  doi: null
+  inspire: https://inspirehep.net/literature/2853366
+  title: Progress on the spectroscopy of an Sp(4) gauge theory coupled to matter in
+    multiple representations
+- arxiv_cat: hep-lat
   arxiv_id: '2410.11412'
   authors:
   - Fabian Zierler
