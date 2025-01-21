@@ -10,7 +10,7 @@ if you would like to collaborate with us.
 
 ## Vacancies
 
-{% if true %}
+{% if false %}
 
 We are recruiting for the following PhD studentships,
 based jointly at Swansea University and the University of Edinburgh:
