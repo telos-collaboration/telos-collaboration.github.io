@@ -1,4 +1,5 @@
  <div class="header {% if site.header == 'large' %}header--large{% endif %}" {%- if page.image -%} style="background-image: url('/assets/img/{{ page.image }}.jpg');" {%- endif -%}>
+     <img class="logo-float" src="{{ '/assets/img/telos-logo-white.svg' | absolute_url }}" alt="TELOS logo">
      <div class="container">
          <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
          <nav class="nav-collapse">

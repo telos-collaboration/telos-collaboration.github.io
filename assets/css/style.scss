@@ -136,3 +136,12 @@ span.links {
 .supporter-text {
 	margin: 0px;
 }
+
+.logo-float {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-55%);
+	margin-right: 50px;
+	height: calc(25% + 25px);
+}
