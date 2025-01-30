@@ -10,13 +10,13 @@ if you would like to collaborate with us.
 
 ## Vacancies
 
-{% if false %}
+{% if true %}
 
 We are recruiting for the following PhD studentships,
 based jointly at Swansea University and the University of Edinburgh:
 
-- [Fully funded PhD in Theoretical Explorations on the Lattice with Orthogonal and Symplectic groups (TELOS): Toward the Exascale (RS723)](https://www.swansea.ac.uk/postgraduate/scholarships/research/fse-fullyfunded-phd-telos-2025-rs723.php) 
-- [Fully funded PhD in Theoretical Explorations on the Lattice with Orthogonal and Symplectic groups (TELOS): Toward the Energy Frontier (RS725)](https://www.swansea.ac.uk/postgraduate/scholarships/research/fse-fullyfunded-phd-telos-2025-rs725.php)
+- [Fully funded PhD in Theoretical Explorations on the Lattice with Orthogonal and Symplectic groups (TELOS): Toward the Exascale (RS775)](https://www.swansea.ac.uk/postgraduate/scholarships/research/fse-edinbrugh-university-phd-telos-2025-rs775.php)
+- [Fully funded PhD in Theoretical Explorations on the Lattice with Orthogonal and Symplectic groups (TELOS): Toward the Energy Frontier (RS776)](https://www.swansea.ac.uk/postgraduate/scholarships/research/fse-swansea-edinburgh-uni-phd-energy-frontier-2025-rs776.php)
 
 {% else %}
 
