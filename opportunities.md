@@ -17,7 +17,7 @@ based jointly at Swansea University and the University of Edinburgh:
 
 - [Fully funded PhD in Theoretical Explorations on the Lattice with Orthogonal and Symplectic groups (TELOS): Toward the Exascale (RS826)](https://www.swansea.ac.uk/postgraduate/scholarships/research/science-swansea-edinburgh-phd-theorectical-explorations-2025-rs826-.php)
 
-{% elsif true %}
+{% elsif false %}
 
 We are recruiting for a Research Software Engineer,
 to support the TELOS Collaboration's efforts in reproducibility,
