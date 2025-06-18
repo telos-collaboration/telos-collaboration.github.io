@@ -1,4 +1,23 @@
 - arxiv_cat: hep-lat
+  arxiv_id: '2502.19767'
+  authors:
+  - C.-J. David Lin
+  - Ed Bennett
+  - "Niccol\xF2 Forzano"
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Conference proceedings
+  created: '2025-02-28T04:12:52.578613+00:00'
+  doi: null
+  inspire: https://inspirehep.net/literature/2895227
+  title: Progress on lattice study of the chimera baryon spectrum in Sp(4) gauge theory
+  workflow: tbc
+- arxiv_cat: hep-lat
   arxiv_id: '2412.01170'
   authors:
   - Ed Bennett
@@ -12,8 +31,12 @@
   category: Preprints
   created: '2024-12-03T04:20:03.788479+00:00'
   data: https://doi.org/10.5281/zenodo.13819562
-  doi: null
+  doi: 10.1103/PhysRevD.111.074511
   inspire: https://inspirehep.net/literature/2854594
+  journal_artid: '074511'
+  journal_title: Phys.Rev.D
+  journal_volume: '111'
+  journal_year: 2025
   title: Meson spectroscopy in the $Sp(4)$ gauge theory with three antisymmetric fermions
   workflow: https://doi.org/10.5281/zenodo.13819431
 - arxiv_cat: hep-lat
@@ -32,8 +55,12 @@
   category: Conference proceedings
   created: '2024-11-28T04:13:53.180227+00:00'
   data: tbc
-  doi: null
+  doi: 10.22323/1.466.0139
   inspire: https://inspirehep.net/literature/2853366
+  journal_artid: '139'
+  journal_title: PoS
+  journal_volume: LATTICE2024
+  journal_year: 2025
   title: Progress on the spectroscopy of an Sp(4) gauge theory coupled to matter in
     multiple representations
 - arxiv_cat: hep-lat
@@ -52,8 +79,12 @@
   category: Conference proceedings
   created: '2024-10-16T04:11:16.401331+00:00'
   data: https://doi.org/10.5281/zenodo.11370542
-  doi: null
+  doi: 10.22323/1.466.0138
   inspire: https://inspirehep.net/literature/2840245
+  journal_artid: '138'
+  journal_title: PoS
+  journal_volume: LATTICE2024
+  journal_year: 2025
   journal: tbc
   title: Progress on pseudoscalar flavour-singlets in Sp(4) with mixed fermion representations
   workflow: https://doi.org/10.5281/zenodo.12748631
@@ -76,8 +107,12 @@
   category: Conference proceedings
   created: '2024-10-16T04:12:28.156166+00:00'
   data: https://doi.org/10.5281/zenodo.11048346
-  doi: null
+  doi: 10.22323/1.466.0137
   inspire: https://inspirehep.net/literature/2840248
+  journal_artid: '137'
+  journal_title: PoS
+  journal_volume: LATTICE2024
+  journal_year: 2025
   journal: tbc
   title: Progress on the spectroscopy of lattice gauge theories using spectral densities
   workflow: https://doi.org/10.5281/zenodo.11048300
