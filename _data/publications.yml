@@ -1,4 +1,27 @@
 - arxiv_cat: hep-lat
+  arxiv_id: '2506.19804'
+  authors:
+  - Ed Bennett
+  - Luigi Del Debbio
+  - "Niccolò Forzano"
+  - Ryan Hill
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Alessandro Lupo
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Preprints
+  created: '2025-06-25T04:10:58.840572+00:00'
+  data: https://doi.org/10.5281/zenodo.15625280
+  doi: null
+  inspire: https://inspirehep.net/literature/2938330
+  title: 'Chimera baryons and mesons on the lattice: a spectral density analysis'
+  workflow: https://doi.org/10.5281/zenodo.15625321
+- arxiv_cat: hep-lat
   arxiv_id: '2502.19767'
   authors:
   - C.-J. David Lin
