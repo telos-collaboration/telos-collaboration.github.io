@@ -71,6 +71,11 @@
   status: Students
   image: alexis
   pronouns: he/him
+- name: Gianmarco Simonetti
+  affiliation: University of Edinburgh
+  github: g-simonetti
+  orcid: 0009-0002-3921-2687
+  status: Students
 - name: Niccolò Forzano
   affiliation: Swansea University
   affiliation-url: https://www.swansea.ac.uk
