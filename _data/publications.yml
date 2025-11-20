@@ -43,7 +43,6 @@
   doi: null
   inspire: https://inspirehep.net/literature/2895227
   title: Progress on lattice study of the chimera baryon spectrum in Sp(4) gauge theory
-  workflow: tbc
 - arxiv_cat: hep-lat
   arxiv_id: '2412.01170'
   authors:
@@ -55,7 +54,7 @@
   - Biagio Lucini
   - Maurizio Piai
   - Davide Vadacchino
-  category: Preprints
+  category: Journal articles
   created: '2024-12-03T04:20:03.788479+00:00'
   data: https://doi.org/10.5281/zenodo.13819562
   doi: 10.1103/PhysRevD.111.074511
@@ -81,7 +80,6 @@
   - Fabian Zierler
   category: Conference proceedings
   created: '2024-11-28T04:13:53.180227+00:00'
-  data: tbc
   doi: 10.22323/1.466.0139
   inspire: https://inspirehep.net/literature/2853366
   journal_artid: '139'
@@ -112,7 +110,6 @@
   journal_title: PoS
   journal_volume: LATTICE2024
   journal_year: 2025
-  journal: tbc
   title: Progress on pseudoscalar flavour-singlets in Sp(4) with mixed fermion representations
   workflow: https://doi.org/10.5281/zenodo.12748631
 - arxiv_cat: hep-lat
@@ -140,7 +137,6 @@
   journal_title: PoS
   journal_volume: LATTICE2024
   journal_year: 2025
-  journal: tbc
   title: Progress on the spectroscopy of lattice gauge theories using spectral densities
   workflow: https://doi.org/10.5281/zenodo.11048300
 - arxiv_cat: hep-lat
