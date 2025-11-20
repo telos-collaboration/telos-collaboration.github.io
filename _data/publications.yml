@@ -14,11 +14,15 @@
   - Maurizio Piai
   - Davide Vadacchino
   - Fabian Zierler
-  category: Preprints
+  category: Journal articles
   created: '2025-06-25T04:10:58.840572+00:00'
   data: https://doi.org/10.5281/zenodo.15625280
-  doi: null
+  doi: 10.1103/qkqx-xxb2
   inspire: https://inspirehep.net/literature/2938330
+  journal_artid: '074515'
+  journal_title: Phys.Rev.D
+  journal_volume: '112'
+  journal_year: 2025
   title: 'Chimera baryons and mesons on the lattice: a spectral density analysis'
   workflow: https://doi.org/10.5281/zenodo.15625321
 - arxiv_cat: hep-lat
