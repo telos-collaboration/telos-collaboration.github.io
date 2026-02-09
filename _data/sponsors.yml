@@ -65,3 +65,7 @@
   image: kisti.svg
   text: KISTI National Supercomputing Centre
   link: https://www.ksc.re.kr/eng/index/main
+- group: computing
+  image: eurohpc.svg
+  text: EuroHPC
+  link: https://www.eurohpc-ju.europa.eu/
