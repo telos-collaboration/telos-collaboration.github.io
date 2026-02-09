@@ -10,9 +10,11 @@ mathjax: yes
 {% assign publicationsSorted = site.data.publications | sort: "created" %}
 
 {% for category in site.data.publication_types %}
+{% assign categoryPublications = publicationsSorted | where: "category", category %}
+{% unless categoryPublications.size == 0 %}
 <h3>{{ category }}</h3>
 <ul class="publication-list">
-{% for publication in publicationsSorted reversed %}
+{% for publication in categoryPublications reversed %}
 {% if publication.category == category %}
 <li class="publication">
 <span class="publication-title">{{ publication.title }}</span>
@@ -45,4 +47,5 @@ mathjax: yes
 {% endif %}
 {% endfor %}
 </ul>
+{% endunless %}
 {% endfor %}
