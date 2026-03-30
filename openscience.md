@@ -6,6 +6,10 @@ image: tsukuba
 
 The TELOS Collaboration has a strong commitment to open science.
 We aim to make all products of and processes used in our research openly available.
+The overall process that we aim to follow is documented in
+[arXiv:2504.01876][strategy]
+(also [on Zenodo][strategy-zenodo];
+working draft [on GitHub][strategy-github]).
 
 ## Data
 
@@ -52,15 +56,26 @@ please get in touch.
 
 We make use of the following community software in our work:
 
-- [Grid][grid], developed by Peter Boyle and collaborators
+- [Grid][grid],
+  developed by Peter Boyle and collaborators,
+  for generating field configurations and computing observables on them.
 - [HiRep][hirep],
-  developed by Claudio Pica and collaborators.
+  developed by Claudio Pica and collaborators,
+  for generating field configurations and computing observables on them.
   We specifically use [a fork][hirep-spn] adapted to work with symplectic groups,
   developed in house
   and optimised by Research Software Engineers
   at the Swansea Academy of Advanced Computing.
 - [Hadrons][hadrons],
-  developed by Antonin Portelli and collaborators.
+  developed by Antonin Portelli and collaborators,
+  for computing observables on field configurations.
+- [Snakemake][snakemake],
+  for constructing data analysis workflows.
+- [Python][python] and the scientific Python ecosystem
+  ([numpy][numpy], [Scipy][scipy], [Pandas][pandas], [Matplotlib][matplotlib]),
+  for performing data analysis.
+- [gvar][gvar], [lsqfit][lsqfit], and [corrfitter][corrfitter],
+  for performing fits of correlation functions.
 
 We are grateful to the contributions of the development communities of these codebases,
 without which our research would not be possible.
@@ -73,11 +88,25 @@ additionally,
 postprints of our work are available via
 Swansea University's [Cronfa][cronfa] institutional repository.
 
-[arxiv]: https://arxiv.org
-[cronfa]: https://cronfa.swan.ac.uk
-[grid]: https://github.com/paboyle/Grid
-[hadrons]: https://github.com/aportelli/Hadrons
-[hirep]: https://github.com/claudiopica/HiRep
-[hirep-spn]: https://github.com/sa2c/HiRep
-[ildg]: https://hpc.desy.de/ildg/
-[uklft]: https://generic.wordpress.soton.ac.uk/uklft/
+[arxiv]: <https://arxiv.org>
+[cronfa]: <https://cronfa.swan.ac.uk>
+[ildg]: <https://hpc.desy.de/ildg/>
+[strategy]: <https://arxiv.org/abs/2504.01876>
+[strategy-github]: <https://github.com/telos-collaboration/strategy>
+[strategy-zenodo]: <https://doi.org/10.5281/zenodo.15113709>
+[uklft]: <https://generic.wordpress.soton.ac.uk/uklft/>
+
+[grid]: <https://github.com/paboyle/Grid>
+[hadrons]: <https://github.com/aportelli/Hadrons>
+[hirep]: <https://github.com/claudiopica/HiRep>
+[hirep-spn]: <https://github.com/sa2c/HiRep>
+
+[python]: <https://python.org>
+[numpy]: <https://numpy.org>
+[scipy]: <https://scipy.org>
+[pandas]: <https://pandas.pydata.org>
+[matplotlib]: <https://matplotlib.org>
+[gvar]: <https://github.com/gplepage/gvar>
+[lsqfit]: <https://github.com/gplepage/lsqfit>
+[corrfitter]: <https://github.com/gplepage/corrfitter>
+[snakemake]: <https://snakemake.github.io>
