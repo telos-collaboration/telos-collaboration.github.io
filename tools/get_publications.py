@@ -41,7 +41,7 @@ def journal_info(pub):
 publications = [
     {
         **{
-            "authors": [f"{author['first_name']} {author['last_name']}" for author in pub["metadata"]["authors"]],
+            "authors": [f"{author['first_name']} {author.get('last_name')}" for author in pub["metadata"]["authors"]],
             "arxiv_id": pub["metadata"]["arxiv_eprints"][0]["value"],
             "arxiv_cat": pub["metadata"]["arxiv_eprints"][0]["categories"][0],
             "title": pub["metadata"]["titles"][0]["title"],
