@@ -29,6 +29,7 @@
 - group: money
   image: stfc.svg
   text: Science and Technology Facilities Council
+  acronym: STFC
   link: https://www.stfc.ac.uk
 - group: money
   image: ukri.svg
@@ -41,14 +42,17 @@
 - group: money
   image: erc.svg
   text: European Research Council
+  acronym: ERC
   link: https://erc.europa.eu
 - group: money
   image: ibs.svg
   text: Institute for Basic Sciences
+  acronym: IBS
   link: https://www.ibs.re.kr
 - group: money
   image: most.svg
   text: Ministry of Science and Technology
+  acronym: Taiwanese MoST
 - group: money
   image: nstc.svg
   text: National Science and Technology Council
@@ -56,6 +60,7 @@
 - group: money
   image: nrf.svg
   text: National Research Foundation of Korea
+  acronym: NRF
   link: https://www.nrf.re.kr/index
 - group: money
   image: royalsociety.svg

@@ -1,0 +1,126 @@
+- name: rse-fellowship
+  start: 2021-07-01
+  end: 2026-10-09
+  fundees:
+    - Ed Bennett
+    - Gaurav Ray
+  organisation: STFC
+  code: EP/V052489/1
+  text: >-
+    The work of {fundees} is supported by the {organisation}
+    Research Software Engineering Fellowship {code}
+- name: swansea-cg2022
+  start: 2022-10-01
+  end: 2026-09-30
+  fundees:
+    - Ed Bennett
+    - Biagio Lucini
+    - Maurizio Piai
+    - Fabian Zierler
+  organisation: STFC
+  code: ST/X000648/1
+  text: >-
+    The work of {fundees} is supported by the {organisation}
+    Consolidated Grant No.~{code}
+- name: nrf2017
+  start: 2017-01-01
+  end: 2027-12-31
+  fundees:
+    - Deog-Ki Hong
+  organisation: NRF
+  code: NRF-2017R1D1A1B06033701
+  text: >-
+    {fundees} {is} supported by Basic Science Research Program
+    through {organisation} funded by the Ministry of Education
+    ({code})
+- name: nrf2021
+  start: 2021-01-01
+  end: 2026-01-01
+  fundees:
+    - Deog-Ki Hong
+  organisation: NRF
+  code: 2021R1A4A5031460
+  text: >-
+    {fundees} {is} supported by the {organisation} grant {code}
+    funded by the Korean government (MSIT)
+- name: ibs-jwl
+  start: 2021-01-01
+  end: 2099-01-01
+  fundees:
+    - Jong-Wan Lee
+  organisation: IBS
+  code: IBS-R018-D1
+  text: >-
+    {fundees} {is} supported by {organisation} under the project code, {code}
+- name: nstc
+  start: 2021-01-01
+  end: 2099-01-01
+  fundees:
+    - David Lin
+    - Ho Hsiao
+  organisation: NSTC Taiwan
+  code: 112-2112-M-A49-021-MY3
+  text: >-
+    {fundees} acknowledge{s} support from {organisation}
+    through grant number {code}
+- name: most-109
+  start: 2021-01-01
+  end: 2099-01-01
+  fundees:
+    - David Lin
+  organisation: Taiwanese MoST
+  code: 109-2112-M-009-006-MY3
+  text: >-
+    {fundees} {is} {also} supported by the {organisation}
+    Grant{grant_plural} No.~{code}
+- name: most-112
+  start: 2021-01-01
+  end: 2099-01-01
+  fundees:
+    - David Lin
+  organisation: Taiwanese MoST
+  code: 112-2639-M-002-006-ASP
+  text: >-
+    {fundees} {is} {also} supported by Grant{grant_plural} No.~{code}
+- name: most-113
+  start: 2021-01-01
+  end: 2099-01-01
+  fundees:
+    - David Lin
+  organisation: Taiwanese MoST
+  code: "113-2119-M-007-013-"
+  text: >-
+    {fundees} {is} {also} supported by Grant{grant_plural} No.~{code}
+- name: swansea-cg2019
+  start: 2019-01-01
+  end: 2023-04-01
+  fundees:
+    - Biagio Lucini
+    - Maurizio Piai
+  organisation: STFC
+  code: ST/T000813/1
+  text: >-
+    The work of {fundees} is supported by the {organisation}
+    Consolidated Grant No.~{code}
+- name: europlex
+  start: 2021-01-01
+  end: 2025-01-01
+  fundees:
+    - Biagio Lucini
+    - Maurizio Piai
+  organisation: ERC
+  code: 813942
+  text: >-
+    {fundees} received funding from the {organisation}
+    under the European Union's Horizon 2020 researcn and innovation program
+    under Grant Agreement No.~{code}
+- name: plymouth-cg2022
+  start: 2022-10-01
+  end: 2026-09-01
+  fundees:
+    - Davide Vadacchino
+  organisation: STFC
+  code: ST/X000680/1
+  text: >-
+    The work of {fundees} is supported by the {organisation}
+    Consolidated Grant No.~{code}
