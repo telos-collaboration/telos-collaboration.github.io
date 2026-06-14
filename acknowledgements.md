@@ -30,7 +30,7 @@ Use this page to generate acknowledgments for TELOS publications.
 {% for member in site.data.members %}
 {% if member.status == member_group %}
 <label for="{{ member.name }}">
-<input type="checkbox" id="{{ member.name }}" value="{{ member.name }}" />
+<input type="checkbox" id="{{ member.name }}" value="{{ member.name }}" class="author" />
 <span>{{ member.name }}</span>
 </label>
 {% endif %}
@@ -42,13 +42,22 @@ Use this page to generate acknowledgments for TELOS publications.
 {% for member in site.data.members %}
 {% unless site.data.member_groups contains member.status %}
 <label for="{{ member.name }}">
-<input type="checkbox" id="{{ member.name }}" value="{{ member.name }}" />
+<input type="checkbox" id="{{ member.name }}" value="{{ member.name }}" class="author"/>
 <span>{{ member.name }}</span>
 </label>
 {% endunless %}
 {% endfor %}
 
 <h4>Computers</h4>
+
+<div>
+{% for machine in site.data.acknowledgements.computing %}
+<label for="{{ machine.machine_name }} {{machine.alt_name }}">
+<input type="checkbox" id="{{ machine.machine_name }}" value="{{ machine.machine_name }}" class="machine" />
+<span>{{ machine.machine_name }}</span>
+</label>
+{% endfor %}
+</div>
 
 <h4>Other attributes</h4>
 
@@ -75,7 +84,7 @@ End date
   members = JSON.parse(decodeURIComponent("{{ site.data.members | jsonify | uri_escape }}"));
   grants = JSON.parse(decodeURIComponent("{{ site.data.acknowledgements | jsonify | uri_escape }}"));
   sponsors = JSON.parse(decodeURIComponent("{{ site.data.sponsors | jsonify | uri_escape }}"));
-  
+
   const getInitials = function (author) {
     fullAuthor = members.find(member => member.name === author);
     if (fullAuthor != undefined && Object.hasOwn(fullAuthor, "initials")) {
@@ -85,19 +94,18 @@ End date
     }
   }
 
+  const commaAnd = function (values) {
+    if (values.length == 1) {
+      return values[0];
+    }  else if (values.length == 2) {
+      return values[0] + " and " + values[1];
+    } else {
+      return values.slice(0, -1).join(", ") + ", and " + values.at(-1);
+    }
+  }
+
   const formatAuthorList = function (authors) {
-    var authorList = []
-    if (authors.length == 2) {
-      return getInitials(authors[0]) + " and " + getInitials(authors[1]);
-    }
-    for (const author of authors) {
-      if (author === authors[authors.length - 1]) { 
-        authorList.push("and " + getInitials(author))
-      } else {
-        authorList.push(getInitials(author));
-      }
-    }
-    return authorList.join(", ");
+    return commaAnd(authors.map(getInitials));
   };
 
   const formatSingleGrant = function (grant, authors) {
@@ -114,7 +122,7 @@ End date
       )
     ]
   };
-  
+
   const getOrganisation = function (organisationAcronym, organisations) {
     // Using findIndex here means that
     // if there is a duplicate definition, it will be ignored
@@ -130,7 +138,7 @@ End date
     organisations[matchOrganisation].defined = true;
     return [organisations[matchOrganisation].text + " (" + organisationAcronym + ")", organisations];
   }
-  
+
   const combineFormattedGroup = function (formattedGroup) {
     if (formattedGroup.length == 1) {
       return formattedGroup[0].replaceAll("{grant_plural}", "");
@@ -194,7 +202,7 @@ End date
     formattedAcknowledgements.push(combineFormattedGroup(formattedGroup));
     return [formattedAcknowledgements.join(". ") + ". ", organisations];
   };
-  
+
   const getAcknowledgement = function (authors, grants, sponsors) {
     var acknowledged = [];
     var acknowledgement = [];
@@ -220,17 +228,87 @@ End date
     return acknowledgement.join(" ");
   };
 
-  const generate = function () {
-    document.getElementById("computing-acknowledgement").textContent = "TODO: implement computing acknowledgement.";
+  const getOtherComputingAcknowledgements = function (all_machines, target_names, skip_groups) {
+    var short_acknowledgement_targets = [];
+    var short_acknowledgement_appends = [];
+    var longer_acknowledgement = [];
+    for (const machine of all_machines) {
+      if (target_names.includes(machine.machine_name) && !skip_groups.includes(machine.group)) {
+        if (machine.text != undefined) {
+          longer_acknowledgement.push(machine.text);
+        } else {
+          var machine_name = machine.machine_name;
+          if (machine.alt_name != undefined) {
+            machine_name += " " + machine.alt_name;
+          }
+          if (machine.host != undefined) {
+            machine_name += " at " + machine.host;
+          }
+          short_acknowledgement_targets.push(machine_name);
+          if (machine.append != undefined) {
+            short_acknowledgement_appends.push(machine.append);
+          }
+        }
+      }
+    }
+    const short_acknowledgement_start = "Numerical computations were performed using " + commaAnd(short_acknowledgement_targets) + ". ";
+    const short_acknowledgement_end = short_acknowledgement_appends.join(" ");
+    return short_acknowledgement_start + short_acknowledgement_end + "</p><p>" + longer_acknowledgement.join("</p><p>");
+  }
 
-    const authors = document.querySelectorAll("input[type=checkbox]").values().filter(c => c.checked).map(c => c.value).toArray();
+  const getDiracAcknowledgement = function (all_machines, target_names) {
+    const machines = all_machines.filter(machine => target_names.includes(machine.machine_name) && machine.group == "dirac");
+    console.log(machines);
+    const used = commaAnd(machines.map((machine) => machine.service_name + " service (" + machine.machine_name + ") at " + machine.host));
+    const managers = commaAnd(machines.map((machine) => machine.manager));
+    const locations = commaAnd(machines.map((machine) => "the DiRAC " + machine.second_service_name));
+    return (
+      "This work used the DiRAC "
+      + used
+      + ", managed by the "
+      + managers
+      + (machines.length > 1 ? " respectively" : "")
+      + " on behalf of the STFC DiRAC HPC Facility (www.dirac.ac.uk). "
+      + "T" + locations.slice(1)
+      + (machines.length > 1 ? " were " : " was ")
+      + "funded by BEIS, UKRI and STFC capital funding and STFC operaitons grants. "
+      + "DiRAC is part of the UKRI Digital Research Infrastructure."
+    )
+  }
+
+  const getWefoAcknowledgement = function (all_machines, target_names) {
+    var wefo_targets = [];
+    for (const machine of all_machines) {
+      if (target_names.includes(machine.machine_name) && machine.group == "wefo") {
+        wefo_targets.push(machine.machine_name);
+      }
+    }
+    if (wefo_targets.length == 0) {
+      return "";
+    }
+    return commaAnd(wefo_targets) + (wefo_targets.length == 1 ? " is " : " are ") + "supported by the European Regional Development Fund via Welsh Government."
+  }
+
+  const getComputingAcknowledgement = function (all_machines, target_names) {
+    var acknowledgement = [];
+    acknowledgement.push(getDiracAcknowledgement(all_machines, target_names));
+    acknowledgement.push(getOtherComputingAcknowledgements(all_machines, target_names, ["dirac"]));
+    acknowledgement.push(getWefoAcknowledgement(all_machines, target_names));
+    return acknowledgement.map((a) => "<p>" + a + "</p>").join("\n");
+  }
+
+  const generate = function () {
+    const target_machine_names = document.querySelectorAll("input[type=checkbox].machine").values().filter(c => c.checked).map(c => c.value).toArray();
+    document.getElementById("computing-acknowledgement").innerHTML = getComputingAcknowledgement(grants["computing"], target_machine_names);
+
+    const authors = document.querySelectorAll("input[type=checkbox].author").values().filter(c => c.checked).map(c => c.value).toArray();
     const startDate = document.getElementById("startDate").valueAsDate;
     const endDate = document.getElementById("endDate").valueAsDate;
 
-    const author_grants = grants.filter(grant => (grant.fundees.filter(fundee => authors.includes(fundee)).length > 0));
+    const author_grants = grants["money"].filter(grant => (grant.fundees.filter(fundee => authors.includes(fundee)).length > 0));
     const target_grants = author_grants.filter(grant => (Date.parse(grant.start) <= endDate & Date.parse(grant.end) >= startDate));
-  
-    document.getElementById("people-acknowledgement").textContent = getAcknowledgement(authors, target_grants, sponsors);
+
+    document.getElementById("people-acknowledgement").innerHTML = getAcknowledgement(authors, target_grants, sponsors);
   }
 
   for (const element of document.querySelectorAll("input")) {
@@ -241,6 +319,9 @@ End date
 {% if member.status == "Core Members" %}
   document.getElementById("{{ member.name }}").checked = true;
 {% endif %}
+{% endfor %}
+{% for machine in site.data.acknowledgements.computing %}
+  document.getElementById("{{ machine.machine_name }}").checked = true;
 {% endfor %}
 
 
