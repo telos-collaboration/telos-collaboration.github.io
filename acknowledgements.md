@@ -271,7 +271,7 @@ End date
       + " on behalf of the STFC DiRAC HPC Facility (www.dirac.ac.uk). "
       + "T" + locations.slice(1)
       + (machines.length > 1 ? " were " : " was ")
-      + "funded by BEIS, UKRI and STFC capital funding and STFC operaitons grants. "
+      + "funded by BEIS, UKRI and STFC capital funding and STFC operations grants. "
       + "DiRAC is part of the UKRI Digital Research Infrastructure."
     )
   }

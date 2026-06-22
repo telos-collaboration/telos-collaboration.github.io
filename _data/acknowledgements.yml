@@ -113,7 +113,7 @@ money:
     code: 813942
     text: >-
       {fundees} received funding from the {organisation}
-      under the European Union's Horizon 2020 researcn and innovation program
+      under the European Union's Horizon 2020 research and innovation program
       under Grant Agreement No.~{code}
   - name: plymouth-cg2022
     start: 2022-10-01
