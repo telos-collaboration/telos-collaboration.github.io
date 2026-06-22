@@ -18,6 +18,10 @@ money:
       - Biagio Lucini
       - Maurizio Piai
       - Fabian Zierler
+      - Alexis Verney-Provatas
+      - Gianmarco Simonetti
+      - Chris Allton
+      - Aaryan Srivastava
     organisation: STFC
     code: ST/X000648/1
     text: >-
@@ -125,6 +129,26 @@ money:
     text: >-
       The work of {fundees} is supported by the {organisation}
       Consolidated Grant No.~{code}
+  - name: qmul-2023
+    start: 2023-09-01
+    end: 2027-08-31
+    fundees:
+      - Biagio Lucini
+    organisation: STFC
+    code: ST/X00063X/1
+    text: >-
+      {fundees} {is} supported in part
+      by the {organisation} Consolidated Grant No.~{code}
+  - name: al-anr
+    start: 2023-09-01
+    end: 2026-09-01
+    fundees:
+      - Alessandro Lupo
+    organisation: ANR
+    code: ANR-22-~CE31-0011
+    text: >-
+      {fundees} {is} funded in part by {organisation},
+      under grant~{code}
 computing:
   - service_name: Data Intensive
     machine_name: DIaL3

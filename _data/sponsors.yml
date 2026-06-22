@@ -74,3 +74,8 @@
   image: eurohpc.svg
   text: EuroHPC
   link: https://www.eurohpc-ju.europa.eu/
+- group: money
+  image: anr.svg
+  text: l'Agence Nationale de la Recherche
+  acronym: ANR
+  link: https://anr.fr/en/
