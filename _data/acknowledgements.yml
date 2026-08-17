@@ -1,0 +1,208 @@
+money:
+  - name: rse-fellowship
+    start: 2021-07-01
+    end: 2026-10-09
+    fundees:
+      - Ed Bennett
+      - Gaurav Ray
+    organisation: STFC
+    code: EP/V052489/1
+    text: >-
+      The work of {fundees} is supported by the {organisation}
+      Research Software Engineering Fellowship {code}
+  - name: swansea-cg2022
+    start: 2022-10-01
+    end: 2026-09-30
+    fundees:
+      - Ed Bennett
+      - Biagio Lucini
+      - Maurizio Piai
+      - Fabian Zierler
+      - Alexis Verney-Provatas
+      - Gianmarco Simonetti
+      - Chris Allton
+      - Aaryan Srivastava
+    organisation: STFC
+    code: ST/X000648/1
+    text: >-
+      The work of {fundees} is supported by the {organisation}
+      Consolidated Grant No.~{code}
+  - name: nrf2017
+    start: 2017-01-01
+    end: 2027-12-31
+    fundees:
+      - Deog-Ki Hong
+    organisation: NRF
+    code: NRF-2017R1D1A1B06033701
+    text: >-
+      {fundees} {is} supported by Basic Science Research Program
+      through {organisation} funded by the Ministry of Education
+      ({code})
+  - name: nrf2021
+    start: 2021-01-01
+    end: 2026-01-01
+    fundees:
+      - Deog-Ki Hong
+    organisation: NRF
+    code: 2021R1A4A5031460
+    text: >-
+      {fundees} {is} supported by the {organisation} grant {code}
+      funded by the Korean government (MSIT)
+  - name: ibs-jwl
+    start: 2021-01-01
+    end: 2099-01-01
+    fundees:
+      - Jong-Wan Lee
+    organisation: IBS
+    code: IBS-R018-D1
+    text: >-
+      {fundees} {is} supported by {organisation} under the project code, {code}
+  - name: nstc
+    start: 2021-01-01
+    end: 2099-01-01
+    fundees:
+      - David Lin
+      - Ho Hsiao
+    organisation: NSTC Taiwan
+    code: 112-2112-M-A49-021-MY3
+    text: >-
+      {fundees} acknowledge{s} support from {organisation}
+      through grant number {code}
+  - name: most-109
+    start: 2021-01-01
+    end: 2099-01-01
+    fundees:
+      - David Lin
+    organisation: Taiwanese MoST
+    code: 109-2112-M-009-006-MY3
+    text: >-
+      {fundees} {is} {also} supported by the {organisation}
+      Grant{grant_plural} No.~{code}
+  - name: most-112
+    start: 2021-01-01
+    end: 2099-01-01
+    fundees:
+      - David Lin
+    organisation: Taiwanese MoST
+    code: 112-2639-M-002-006-ASP
+    text: >-
+      {fundees} {is} {also} supported by Grant{grant_plural} No.~{code}
+  - name: most-113
+    start: 2021-01-01
+    end: 2099-01-01
+    fundees:
+      - David Lin
+    organisation: Taiwanese MoST
+    code: "113-2119-M-007-013-"
+    text: >-
+      {fundees} {is} {also} supported by Grant{grant_plural} No.~{code}
+  - name: swansea-cg2019
+    start: 2019-01-01
+    end: 2023-04-01
+    fundees:
+      - Biagio Lucini
+      - Maurizio Piai
+    organisation: STFC
+    code: ST/T000813/1
+    text: >-
+      The work of {fundees} is supported by the {organisation}
+      Consolidated Grant No.~{code}
+  - name: europlex
+    start: 2021-01-01
+    end: 2025-01-01
+    fundees:
+      - Biagio Lucini
+      - Maurizio Piai
+    organisation: ERC
+    code: 813942
+    text: >-
+      {fundees} received funding from the {organisation}
+      under the European Union's Horizon 2020 research and innovation program
+      under Grant Agreement No.~{code}
+  - name: plymouth-cg2022
+    start: 2022-10-01
+    end: 2026-09-01
+    fundees:
+      - Davide Vadacchino
+    organisation: STFC
+    code: ST/X000680/1
+    text: >-
+      The work of {fundees} is supported by the {organisation}
+      Consolidated Grant No.~{code}
+  - name: qmul-2023
+    start: 2023-09-01
+    end: 2027-08-31
+    fundees:
+      - Biagio Lucini
+    organisation: STFC
+    code: ST/X00063X/1
+    text: >-
+      {fundees} {is} supported in part
+      by the {organisation} Consolidated Grant No.~{code}
+  - name: al-anr
+    start: 2023-09-01
+    end: 2026-09-01
+    fundees:
+      - Alessandro Lupo
+    organisation: ANR
+    code: ANR-22-~CE31-0011
+    text: >-
+      {fundees} {is} funded in part by {organisation},
+      under grant~{code}
+  - name: ccp-tepp
+    start: 2025-01-01
+    end: 2026-12-31
+    fundees:
+      - Ed Bennett
+      - Gaurav Ray
+    organisation: UKRI
+    code: UKRI497
+    text: >-
+      The work of {fundees} has been supported in part by {organisation}
+      via the Computational Science Centre for Research Communities (CoSeC),
+      under Grant No.~{code}
+computing:
+  - service_name: Data Intensive
+    machine_name: DIaL3
+    host: the University of Leicester
+    manager: University of Leicester Research Computing Service
+    second_service_name: service at Leicester
+    group: dirac
+  - service_name: Data Intensive
+    machine_name: CSD3
+    host: the University of Cambridge
+    manager: University of Cambridge University Information Services
+    second_service_name: component of CSD3 at Cambridge
+    group: dirac
+  - service_name: Extreme Scaling
+    machine_name: Tursa
+    host: the University of Edinburgh
+    manager: EPCC
+    second_service_name: service at Edinburgh
+    group: dirac
+  - machine_name: Supercomputing Wales
+    alt_name: SUNBIRD
+    host: Swansea University
+    group: wefo
+  - machine_name: AccelerateAI
+    host: Swansea University
+    group: wefo
+  - machine_name: Fugaku
+    text: >-
+      This work was supported by
+      the Supercomputer Fugaku Start-up Utilization Program of RIKEN.
+      This work used computational resources of the supercomputer Fugaku
+      provided by RIKEN through the HPCI System Research Project
+      (Project ID: hp230397).
+  - machine_name: VSC4
+    text: >-
+      Calculations were performed using
+      supercomputer resources provided by the Austrian Scientific Computing center
+      (ASC),
+      in particular using the Vienna Scientific Cluster (VSC4).
+  - machine_name: NURION
+    host: KISTI
+    append: >-
+      The NURION system is supported by the National Supercomputing Center
+      with supercomputing resources including technical support
+      (KSC-2023-CRE-0549 and KSC-2024-CRE-0530).
