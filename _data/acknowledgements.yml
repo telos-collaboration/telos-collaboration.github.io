@@ -22,6 +22,7 @@ money:
       - Gianmarco Simonetti
       - Chris Allton
       - Aaryan Srivastava
+      - Niccolò Forzano
     organisation: STFC
     code: ST/X000648/1
     text: >-
@@ -113,6 +114,7 @@ money:
     fundees:
       - Biagio Lucini
       - Maurizio Piai
+      - Luigi Del Debbio
     organisation: ERC
     code: 813942
     text: >-
@@ -161,6 +163,32 @@ money:
       The work of {fundees} has been supported in part by {organisation}
       via the Computational Science Centre for Research Communities (CoSeC),
       under Grant No.~{code}
+  - name: stfc-dtp-2022
+    start: 2022-01-01
+    end: 2026-01-01
+    fundees:
+      - Niccolò Forzano
+    organisation: STFC
+    code: ST/X508834/1
+    text: >-
+      The work of {fundees} has been supported by the {organisation}
+      Doctoral Training Grant No.~{code}
+  - name: joint-studentship
+    start: 2024-09-01
+    end: 2029-12-01
+    fundees:
+      - Alexis Verney-Provatas
+      - Gianmarco Simonetti
+      - Maximilian Becker
+      - Aaryan Srivastava
+    organisation: Swansea University and the University of Edinburgh
+    code: none
+    text: >-
+      The work of {fundees} is supported
+      by a studentship funded by the Faculty of Science and Engineering,
+      Swansea University,
+      and by the School of Physics and Astronomy,
+      The University of Edinburgh
 computing:
   - service_name: Data Intensive
     machine_name: DIaL3
