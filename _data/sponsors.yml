@@ -34,6 +34,7 @@
 - group: money
   image: ukri.svg
   text: United Kingdom Research and Innovation
+  acronym: UKRI
   link: https://www.ukri.org
 - group: money
   image: epsrc.svg

@@ -149,6 +149,18 @@ money:
     text: >-
       {fundees} {is} funded in part by {organisation},
       under grant~{code}
+  - name: ccp-tepp
+    start: 2025-01-01
+    end: 2026-12-31
+    fundees:
+      - Ed Bennett
+      - Gaurav Ray
+    organisation: UKRI
+    code: UKRI497
+    text: >-
+      The work of {fundees} has been supported in part by {organisation}
+      via the Computational Science Centre for Research Communities (CoSeC),
+      under Grant No.~{code}
 computing:
   - service_name: Data Intensive
     machine_name: DIaL3
