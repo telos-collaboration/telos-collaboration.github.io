@@ -52,8 +52,8 @@ Use this page to generate acknowledgments for TELOS publications.
 
 <div>
 {% for machine in site.data.acknowledgements.computing %}
-<label for="{{ machine.machine_name }} {{machine.alt_name }}">
-<input type="checkbox" id="{{ machine.machine_name }}" value="{{ machine.machine_name }}" class="machine" />
+<label for="{{ machine.machine_name }} {{ machine.alt_name }}">
+<input type="checkbox" id="{{ machine.machine_name }} {{ machine.alt_name }}" value="{{ machine.machine_name }}" class="machine" />
 <span>{{ machine.machine_name }}</span>
 </label>
 {% endfor %}
@@ -253,11 +253,17 @@ End date
     }
     const short_acknowledgement_start = "Numerical computations were performed using " + commaAnd(short_acknowledgement_targets) + ". ";
     const short_acknowledgement_end = short_acknowledgement_appends.join(" ");
+    if (short_acknowledgement_targets.length == 0) {
+      return "";
+    }
     return short_acknowledgement_start + short_acknowledgement_end + "</p><p>" + longer_acknowledgement.join("</p><p>");
   }
 
   const getDiracAcknowledgement = function (all_machines, target_names) {
     const machines = all_machines.filter(machine => target_names.includes(machine.machine_name) && machine.group == "dirac");
+    if (machines.length == 0) {
+      return "";
+    }
     console.log(machines);
     const used = commaAnd(machines.map((machine) => machine.service_name + " service (" + machine.machine_name + ") at " + machine.host));
     const managers = commaAnd(machines.map((machine) => machine.manager));
@@ -321,7 +327,7 @@ End date
 {% endif %}
 {% endfor %}
 {% for machine in site.data.acknowledgements.computing %}
-  document.getElementById("{{ machine.machine_name }}").checked = true;
+  document.getElementById("{{ machine.machine_name }} {{ machine.alt_name }}").checked = true;
 {% endfor %}
 
 
