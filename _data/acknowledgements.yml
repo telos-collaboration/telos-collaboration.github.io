@@ -234,3 +234,9 @@ computing:
       The NURION system is supported by the National Supercomputing Center
       with supercomputing resources including technical support
       (KSC-2023-CRE-0549 and KSC-2024-CRE-0530).
+  - machine_name: MareNostrum5
+    host: Barcelona Supercomputing Centre
+    group: eurohpc
+    text: >-
+      This work made use of the MareNostrum5 system at the Barcelona Supercomputing Centre,
+      accessed via EuroHPC through project EHPC-REG-2025R02-386.
