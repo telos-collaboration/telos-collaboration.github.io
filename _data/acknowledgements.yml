@@ -30,7 +30,7 @@ money:
       Consolidated Grant No.~{code}
   - name: nrf2017
     start: 2017-01-01
-    end: 2027-12-31
+    end: 2027-05-31
     fundees:
       - Deog-Ki Hong
     organisation: NRF
@@ -41,7 +41,7 @@ money:
       ({code})
   - name: nrf2021
     start: 2021-01-01
-    end: 2026-01-01
+    end: 2024-02-01
     fundees:
       - Deog-Ki Hong
     organisation: NRF
