@@ -1,4 +1,98 @@
 - arxiv_cat: hep-lat
+  arxiv_id: '2609.37130'
+  authors:
+  - Gianmarco Simonetti
+  - Ed Bennett
+  - Peter A. Boyle
+  - Luigi Del Debbio
+  - "Niccol\xF2 Forzano"
+  - Ryan C. Hill
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J.David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Alexis Verney-Provatas
+  category: Preprints
+  created: '2026-09-30T07:28:25.454015+00:00'
+  data: https://zenodo.org/records/22308547
+  doi: null
+  inspire: https://inspirehep.net/literature/3209224
+  title: "Progress on $Sp(4)$ lattice theories with Grid: Möbius domain wall fermions\
+    \ and continuum extrapolations"
+  workflow: https://doi.org/10.5281/zenodo.22307749
+- arxiv_cat: hep-lat
+  arxiv_id: '2609.19930'
+  authors:
+  - Ed Bennett
+  - Peter A. Boyle
+  - Luigi Del Debbio
+  - Niccolo Forzano
+  - Ryan C. Hill
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J.David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Gianmarco Simonetti
+  - Davide Vadacchino
+  - Alexis Verney-Provatas
+  category: Conference proceedings
+  created: '2026-09-18T04:40:23.561836+00:00'
+  data: https://zenodo.org/records/22308547
+  doi: null
+  inspire: https://inspirehep.net/literature/3204872
+  title: 'Symplectic lattice gauge theories in the Grid framework: domain wall fermions
+    and continuum extrapolations'
+  workflow: https://doi.org/10.5281/zenodo.22307749
+- arxiv_cat: hep-lat
+  arxiv_id: '2606.14546'
+  authors:
+  - Ed Bennett
+  - Yannick Dengler
+  - Deog Ki Hong
+  - Ho Hsiao
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Axel Maas
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Preprints
+  created: '2026-06-15T04:05:00.388066+00:00'
+  data: https://doi.org/10.5281/zenodo.20111459
+  doi: null
+  inspire: https://inspirehep.net/literature/3168339
+  title: Resonant scattering in two-flavored Sp(4) lattice gauge theories
+  workflow: https://doi.org/10.5281/zenodo.20638262
+- arxiv_cat: hep-lat
+  arxiv_id: '2604.04433'
+  authors:
+  - Jong-Wan Lee
+  - Ed Bennett
+  - Luigi Del Debbio
+  - "Niccol\xF2 Forzano"
+  - Ryan C. Hill
+  - Deog Ki Hong
+  - Ho Hsiao
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Alessandro Lupo
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Conference proceedings
+  created: '2026-04-07T04:06:27.109210+00:00'
+  doi: 10.1016/j.jspc.2026.100438
+  inspire: https://inspirehep.net/literature/3139336
+  journal_artid: '100438'
+  journal_title: J.Subatomic Part.Cosmol.
+  journal_volume: '6'
+  journal_year: 2026
+  title: Lattice studies of chimera baryons in Sp(4) gauge theory
+- arxiv_cat: hep-lat
   arxiv_id: '2603.19557'
   authors:
   - Jong-Wan Lee
@@ -14,8 +108,14 @@
   - Fabian Zierler
   category: Conference proceedings
   created: '2026-03-23T04:05:39.322002+00:00'
+  data: https://doi.org/10.5281/zenodo.20111459
   inspire: https://inspirehep.net/literature/3132391
+  journal_artid: '159'
+  journal_title: PoS
+  journal_volume: LATTICE2025
+  journal_year: 2026
   title: Vector-channel scattering of dark particles in a Sp(4) gauge theory
+  workflow: https://doi.org/10.5281/zenodo.20638262
 - arxiv_cat: hep-lat
   arxiv_id: '2506.19804'
   authors:

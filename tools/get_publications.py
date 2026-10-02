@@ -18,7 +18,7 @@ def categorise(pub):
         return "Preprints"
     elif "journal_title" not in pub["metadata"]["publication_info"][0]:
         return "Conference proceedings"
-    elif pub["metadata"]["publication_info"][0]["journal_title"] in ["PoS", "EPJ Web Conf."]:
+    elif pub["metadata"]["publication_info"][0]["journal_title"] in ["PoS", "EPJ Web Conf.", "J.Subatomic Part.Cosmol."]:
         return "Conference proceedings"
     elif pub["metadata"]["publication_info"][0]["journal_title"] in ["Phys.Lett.B", "Phys.Rev.D", "Universe", "JHEP"]:
         return "Journal articles"
