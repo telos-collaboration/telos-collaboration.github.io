@@ -189,6 +189,37 @@ money:
       Swansea University,
       and by the School of Physics and Astronomy,
       The University of Edinburgh
+  - name: cg-2026
+    start: 2026-10-01
+    end: 2030-09-30
+    organisation: STFC
+    code: UKRI4243
+    fundees:
+      - Ed Bennett
+      - Maurizio Piai
+      - Chris Allton
+    text: >-
+      This work was supported by {organisation} [{code}]
+  - name: edinburgh-2023
+    start: 2023-10-01
+    end: 2027-09-30
+    organisation: STFC
+    code: ST/X000494/1
+    fundees:
+      - Ryan Hill
+      - Luigi Del Debbio
+    text: >-
+      The work of {fundees} is supported by the {organisation}
+      Consolidated Grant No.~{code}
+  - name: edinburgh-dirac3
+    start: 2023-04-01
+    end: 2027-03-31
+    organisation: STFC
+    code: ST/X000079/1
+    fundees:
+      - Ryan Hill
+    text: >-
+      The work of {fundees} is supported by the DiRAC 3 Operations Grant {code}
 computing:
   - service_name: Data Intensive
     machine_name: DIaL3
