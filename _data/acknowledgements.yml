@@ -199,7 +199,7 @@ money:
       - Maurizio Piai
       - Chris Allton
     text: >-
-      This work was supported by {organisation} [{code}]
+      {fundees} {is} supported by {organisation} [{code}]
   - name: edinburgh-2023
     start: 2023-10-01
     end: 2027-09-30
@@ -220,6 +220,15 @@ money:
       - Ryan Hill
     text: >-
       The work of {fundees} is supported by the DiRAC 3 Operations Grant {code}
+  - name: fabian-2026
+    start: 2024-09-01
+    end: 2029-08-31
+    organisation: ERC
+    code: ERC-2023-ADG-Project EFT-XYZ
+    fundees:
+      - Fabian Zierler
+    text: >-
+      {fundees} {is} supported by the Advanced {organisation} grant {code}
 computing:
   - service_name: Data Intensive
     machine_name: DIaL3
@@ -271,3 +280,9 @@ computing:
     text: >-
       This work made use of the MareNostrum5 system at the Barcelona Supercomputing Centre,
       accessed via EuroHPC through project EHPC-REG-2025R02-386.
+  - machine_name: Lovelace
+    host: University of Plymouth
+    text: >-
+      This work was partially carried out
+      using the computational facilities of the Lovelace High Performance Computing Centre,
+      University of Plymouth.
