@@ -229,6 +229,15 @@ money:
       - Fabian Zierler
     text: >-
       {fundees} {is} supported by the Advanced {organisation} grant {code}
+  - name: nuno-2026
+    start: 2022-10-01
+    end: 2026-09-30
+    organisation: STFC
+    code: ST/X508676/1
+    fundees:
+      - Nuno Brito
+    text: >-
+      The work of {fundees} is supported by {organisation} Grant No.~{code}
 computing:
   - service_name: Data Intensive
     machine_name: DIaL3
