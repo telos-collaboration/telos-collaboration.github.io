@@ -1,4 +1,35 @@
 - arxiv_cat: hep-lat
+  arxiv_id: '2610.37120'
+  authors:
+  - Alexis Verney-Provatas
+  - Ed Bennett
+  - Gaurav Ray
+  category: Conference proceedings
+  created: '2026-10-28T05:00:00.00+00:00'
+  data: https://doi.org/10.5281/zenodo.23239277
+  doi: null
+  inspire: https://inspirehep.net/literature/3219490
+  title: "Easier parameter scans with hmcdj"
+  workflow: https://doi.org/10.5281/zenodo.23239277
+- arxiv_cat: hep-lat
+  arxiv_id: '2610.29861'
+  authors:
+  - Nuno Brito
+  - Ed Bennett
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Fabian Zierler
+  category: Conference proceedings
+  created: '2026-10-22T05:22:52.508144+00:00'
+  doi: null
+  inspire: https://inspirehep.net/literature/3217386
+  title: Progress on meson-glueball mixing in lattice gauge theories coupled to fermions
+    in multiple representations
+- arxiv_cat: hep-lat
   arxiv_id: '2609.37130'
   authors:
   - Gianmarco Simonetti

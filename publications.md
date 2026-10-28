@@ -36,11 +36,15 @@ mathjax: yes
 <span class="links">
 <a href="https://arxiv.org/abs/{{ publication.arxiv_id }}">arXiv:{{ publication.arxiv_id }} [{{ publication.arxiv_cat }}]</a> •
 <a href="{{ publication.inspire }}">INSPIRE-HEP</a>
+{% if publication.data and publication.data == publication.workflow %}
+ • <a href="{{ publication.data }}">Data and workflow</a>
+{% else %}
 {% if publication.data %}
  • <a href="{{ publication.data }}">Data</a>
 {% endif %}
 {% if publication.workflow %}
  • <a href="{{ publication.workflow }}">Workflow</a>
+{% endif %}
 {% endif %}
 </span>
 </li>
