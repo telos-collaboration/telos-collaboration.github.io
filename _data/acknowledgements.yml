@@ -200,6 +200,15 @@ money:
       - Chris Allton
     text: >-
       {fundees} {is} supported by {organisation} [{code}]
+  - name: qmul-cg-2026
+    start: 2026-10-01
+    end: 2030-09-30
+    organisation: STFC
+    code: UKRI4238
+    fundees:
+      - Biagio Lucini
+    text: >-
+      {fundees} {is} supported by {organisation} [{code}]
   - name: edinburgh-2023
     start: 2023-10-01
     end: 2027-09-30
