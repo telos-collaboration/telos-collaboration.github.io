@@ -1,4 +1,25 @@
 - arxiv_cat: hep-lat
+  arxiv_id: '2611.21493'
+  authors:
+  - Chris Allton
+  - Ed Bennett
+  - Luigi Del Debbio
+  - Ryan Hill
+  - Deog Ki Hong
+  - Jong-Wan Lee
+  - C.-J. David Lin
+  - Biagio Lucini
+  - Maurizio Piai
+  - Davide Vadacchino
+  - Alexis Verney-Provatas
+  category: Preprints
+  created: '2026-11-18T08:09:29.690837+00:00'
+  data: https://doi.org/10.5281/zenodo.23185568
+  doi: null
+  inspire: https://inspirehep.net/literature/3230365
+  title: Finite temperature Sp(4) lattice gauge theory with matter fields
+  workflow: https://doi.org/10.5281/zenodo.23186083
+- arxiv_cat: hep-lat
   arxiv_id: '2610.37120'
   authors:
   - Alexis Verney-Provatas
